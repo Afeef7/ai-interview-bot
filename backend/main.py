@@ -13,7 +13,12 @@ load_dotenv(dotenv_path=DOTENV_PATH)
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
+from interview import router as interview_router
+
 app = FastAPI(title="MockMate API", version="0.1.0")
+
+# Register interview routes
+app.include_router(interview_router)
 
 # Enable CORS for Vite frontend
 app.add_middleware(

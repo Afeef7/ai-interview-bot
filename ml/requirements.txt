@@ -1,0 +1,9 @@
+tensorflow>=2.16.0
+keras>=3.13.0
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+pillow
+tensorflowjs

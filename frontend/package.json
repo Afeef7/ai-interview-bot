@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mediapipe/face_detection": "^0.4.1646425229",
+    "@mediapipe/tasks-vision": "^1.1.0",
+    "@tensorflow/tfjs": "^4.22.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
