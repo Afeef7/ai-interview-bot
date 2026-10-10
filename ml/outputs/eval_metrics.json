@@ -1,0 +1,21 @@
+{
+  "accuracy": 0.4993034271384787,
+  "recovered_labels_by_model_output_index": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "folder_order_reference": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ]
+}
